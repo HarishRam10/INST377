@@ -1,0 +1,45 @@
+#heading{
+    background-color:rgb(110, 110, 226);
+    color: lightblue;
+}
+#number2{
+    width: 60%;
+    text-align: center;
+}
+.column {
+    float: left;
+    width: 50%;
+    
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+ }
+ #image{
+    width: 125%; 
+    height: 125%;
+ }
+
+
+ /*Class for specific portions of each work entry. By editing one class, all 3 work entries are affected. 
+ More than 5 properties affecting all the work entries */
+ .work{
+    background-color:rgb(100, 186, 214);
+ }
+ .workEntry{
+     outline-style: dashed;
+     outline-color: blue;   
+     outline-width: thick;
+ }
+ .workHeader{
+     font-style: oblique;
+     text-decoration: underline;
+     font-size: 20px;
+ }
+ .workDescription{
+     color: black;
+     font-style: italic; 
+     border-style: dotted dashed solid double;   
+ }
