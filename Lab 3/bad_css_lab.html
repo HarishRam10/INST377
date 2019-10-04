@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample HTML Demonstration Page</title>
+  </head>
+  <style>
+
+    .container {
+      
+       margin: 0;
+     }
+
+     .anchor{
+        text-align: center;
+        color: purple;
+        text-decoration: underline;
+     }
+
+
+    #start {
+      font-size: 42px;
+      font-style: bold;
+      font-weight: 400;
+    }
+
+    .wrapper {
+      width: 100%;
+      height: 100vh;
+      background: grey;
+    }
+
+    .head {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .head a,.head {
+       margin: 0;
+       padding: 0;
+     }
+
+    .second_container {
+      background: pink;
+      height: 150px;
+      width: 100%;
+    }
+
+    .interior {
+      text-align: center;
+      position: relative;
+      top: 60px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      float: left;
+      width: 100%;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .green {
+      background: red;
+      cursor: pointer;
+      height: 100px;
+      width: 350px;
+      text-align: center;
+      position: relative;
+      top: 10px;
+    }
+    
+    .textbox {
+      height: 100px;
+      width: 100%;
+      margin-bottom: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      
+    }
+    .second_textbox {
+      background: lightblue;
+      height: 100px;
+      width: 350px;
+      position: relative;
+      top: 20px;
+      
+    }
+  </style>
+
+  <body>
+    <div class="wrapper">
+      <div class="head" id="start">
+        Sample Header
+      </div>
+      <p class="anchor">anchor tag to nowhere</p>
+      <div class="second_container">
+        <div class="interior">
+          hello
+        </div>
+      </div>
+      <div class="container">
+      <div class="row">
+        <div class="green">
+          click me I'm great
+        </div>
+      </div>
+      <div class="row">
+        <div class="green">
+        </div>
+      </div>
+      <div class="textbox">
+        <p class="second_textbox">
+          World #2
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
